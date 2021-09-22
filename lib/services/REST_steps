@@ -1,0 +1,25 @@
+in your backend Postman or rails or other:
+
+1- select Method: 
+POST = https://fcm.googleapis.com/fcm/send
+
+2-ADD key autorization:
+go to the column "Header" and in the column "KEY" write: autorization,
+in the column "VALUE" write: key = "value of key of authorization in firebase(key password of the servidor)"
+
+3- make a JSON:
+go to column "BODY" Select "Raw" and to the left "JSON"
+now write the json code for sent a notification:
+
+{
+    "notification":{
+        "body": "Texto de la notificacion!!",
+        "title": "titulo",
+    }
+    "priority": "high",
+    "data":{
+        "product": "para recordarle su supcripsion a AS CODE  ",
+    }
+    
+    "to": "url of Token from terminal or Terminales use array list[]"
+}

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "366775087614",
+    "project_id": "flutter-notificaciones-d274f",
+    "storage_bucket": "flutter-notificaciones-d274f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:366775087614:android:64e82fbca6fa1b1e7fd0af",
+        "android_client_info": {
+          "package_name": "com.robertorivera.notificaciones"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "366775087614-ktd42043ije480vpib0u942k294lar8o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.robertorivera.notificaciones",
+            "certificate_hash": "a4e0b26e067273e520da7abb7893b93b85a5fd8a"
+          }
+        },
+        {
+          "client_id": "366775087614-72pbs98vpjs8nl4cfshvj56b8f74t3dc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGlM6UO9ex59uJTtrvDUy46ySzeqSKl3I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "366775087614-72pbs98vpjs8nl4cfshvj56b8f74t3dc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
